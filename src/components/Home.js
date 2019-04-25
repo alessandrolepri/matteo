@@ -16,7 +16,7 @@ const Home = () => {
         <h1 className="trainer">Trainer </h1>
 
         <div className="wrapper">
-          <Link to="/aboutme"><div className="ui bottom attached button">Scopri di piu</div>
+          <Link to="/aboutme"><div className="bottomhome"><button>Scopri di piu</button></div>
           </Link>
         </div>
 

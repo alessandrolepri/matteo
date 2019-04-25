@@ -1,5 +1,6 @@
 .section {
   background-color: black;
+  height: 900px;
 }
 
 img {
@@ -14,16 +15,14 @@ h1.personal, h1.trainer {
 }
 
 h1.personal {
-    /* font-size: 3.125em;
-    font-weight: 200; */
-    position: relative;
-    -webkit-animation-name: title-animation;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: name;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    margin-right: 240px;
+  position: relative;
+  -webkit-animation-name: title-animation;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: name;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  margin-right: 240px;
 }
 
 
@@ -47,14 +46,14 @@ h1.personal {
 
 .trainer {
 
-    position: relative;
-    -webkit-animation-name: job;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: job;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    margin-left: 240px;
+  position: relative;
+  -webkit-animation-name: job;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: job;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  margin-left: 240px;
 }
 
 @keyframes job {
@@ -86,9 +85,9 @@ h1.personal {
     text-align: center;
 }
 
-.ui_bottom_attached_button {
-    position: absolute;
-    top: 50%;
+.bottomhome button {
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .photo {
