@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 import Details from './Details'
-// import Info from './Info'
+import Info from './Info'
 
 const AboutMe = () => (
   <div>
@@ -22,7 +22,12 @@ const AboutMe = () => (
     </div>
     <div className="photo">
       <Image src='images/foto.jpeg' size='large' circular />
+      <Icon name="arrow down" size="large" />
 
+    </div>
+
+    <div className="me">
+      <Info />
     </div>
 
 
