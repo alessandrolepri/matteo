@@ -37,6 +37,16 @@ const AboutMe = () => (
       </Link>
     </div>
 
+    <footer>
+      <div className="footer">
+        <p>&copy; 2019 | Matteo Atti, Personal Trainer | Cento (FE), Italy</p>
+
+
+        <p> Powered by Alessandro Lepri </p>
+
+      </div>
+    </footer>
+
 
   </div>
 
