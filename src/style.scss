@@ -123,9 +123,17 @@ h1 {
 i.arrow.down.large {
   padding-left: 420px;
   margin-top: 15px;
+
 }
 
 p {
-  text-align: center;
-  justify-content: center;
+  text-align: justify;
+}
+
+img.ui.large.image {
+  margin-left: 0;
+}
+
+img.ui.large.circular.image {
+  margin-left: 200px;
 }

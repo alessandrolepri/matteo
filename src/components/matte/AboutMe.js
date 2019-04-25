@@ -30,6 +30,13 @@ const AboutMe = () => (
       <Info />
     </div>
 
+    <div className="goback">
+      <Link to="/">
+        <h6> Indietro </h6>
+        <Icon name="arrow alternate circle left outline" />
+      </Link>
+    </div>
+
 
   </div>
 

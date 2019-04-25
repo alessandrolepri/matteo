@@ -35,7 +35,7 @@ const Info = () => (
     </p>
 
     <Header as='h2'><Icon name="building" />Dove mi trovi </Header>
-    <Image src="images/wellness.jpg" size="medium" />
+    <Image src="images/wellness.jpg" size="large" />
     <p> Via D. Manin 15, 44032 - CENTO (FE)</p>
 
   </Container>
