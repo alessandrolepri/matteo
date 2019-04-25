@@ -1,0 +1,101 @@
+.section {
+  background-color: black;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
+  margin-left: 200px;
+}
+
+h1.personal, h1.trainer {
+  text-align: center;
+  font-size: 110px;
+}
+
+h1.personal {
+    /* font-size: 3.125em;
+    font-weight: 200; */
+    position: relative;
+    -webkit-animation-name: title-animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-right: 240px;
+}
+
+
+.personal {
+  position: relative;
+  -webkit-animation-name: name;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: job;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name {
+  from {
+    left: 90.5rem;}
+  to {
+    left: 0;}
+}
+
+
+.trainer {
+
+    position: relative;
+    -webkit-animation-name: job;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: job;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-left: 240px;
+}
+
+@keyframes job {
+  from {
+    right: 90.5rem;}
+  to {
+    right: 0;}
+}
+
+.images {
+  position: relative;
+  -webkit-animation-name: img;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: img;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes img {
+  from {
+    top: 200.5rem;}
+  to {
+    top: 0;}
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.ui_bottom_attached_button {
+    position: absolute;
+    top: 50%;
+}
+
+.photo {
+  margin-top: 100px;
+  float: right;
+}
+
+img.ui.medium.circular.image {
+  border-radius: 250px;
+}
