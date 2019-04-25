@@ -1,0 +1,8 @@
+{
+  "name": "matteo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alessandrolepri/matteo.git",
+  "author": "Alessandro Lepri <alex.lepri84@gmail.com>",
+  "license": "MIT"
+}
