@@ -19,7 +19,7 @@ const Details = () => (
     <Step>
       <Icon name='instagram' />
       <Step.Content>
-        <Step.Title><a href="https://www.instagram.com/matteoattitrainer/?utm_source=ig_profile_share&igshid=1j5f6lw6s50we" target="_blank" rel="noopener noreferrer"> Follow Me </a></Step.Title>
+        <Step.Title><a href="https://www.instagram.com/matteoattitrainer/?utm_source=ig_profile_share&igshid=1j5f6lw6s50we" target="_blank" rel="noopener noreferrer"> Seguimi </a></Step.Title>
       </Step.Content>
     </Step>
   </Step.Group>

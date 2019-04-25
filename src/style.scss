@@ -94,15 +94,20 @@ h1.personal {
   margin-top: 60px;
   float: left;
   margin-left: 300px;
+  margin-bottom: 40px;
 }
 
 img.ui.medium.circular.image {
   border-radius: 250px;
-  position: absolute;
+  position: relative;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
   font-weight: 900;
+}
+
+.goback {
+  margin-left: 10px;
 }
