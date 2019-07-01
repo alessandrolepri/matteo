@@ -93,17 +93,18 @@ h1.personal {
   border-radius: 20px;
   padding: 20px;
 }
+//
+// .photo {
+//   width: 13rem;
+// }
 
-.photo {
-  margin-top: 60px;
-  float: left;
-  margin-left: 300px;
-  margin-bottom: 40px;
-}
-
-img.ui.medium.circular.image {
-  border-radius: 250px;
-  position: relative;
+img.ui.circular.image {
+  border: 3px solid red;
+  width: 13rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 6rem;
 }
 
 h1 {
@@ -112,37 +113,19 @@ h1 {
   font-weight: 900;
 }
 
-.goback {
-  margin-left: 10px;
-}
-
-.me {
-  margin-top: 600px;
-}
-
-i.arrow.down.large {
-  padding-left: 420px;
-  margin-top: 15px;
-
-}
+//
+// .me {
+//   margin-top: 600px;
+// }
+//
+// i.arrow.down.large {
+//   padding-left: 420px;
+//   margin-top: 15px;
+//
+// }
 
 p {
   text-align: justify;
-}
-
-img.ui.large.image {
-  margin-left: 0;
-}
-
-img.ui.large.circular.image {
-  margin-left: 200px;
-}
-
-.footer {
-  display: flex;
-  padding-bottom: 0;
-  width: 100%;
-  text-align: center;
 }
 
 #nav {
