@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 
 import React from 'react'
-// import { Container, Header, Image, Icon } from 'semantic-ui-react'
 
 const Info = () => (
 
@@ -54,6 +53,51 @@ const Info = () => (
         </table>
       </div>
     </div>
+
+    <div className="wsite-multicol">
+      <div className="wsite-multicol-table-wrap">
+        <table className="wsite-multicol-table">
+          <tbody className="wsite-multicol-tbody">
+            <tr className="wsite-multicol-tr">
+              <td className="wsite-multicol-col">
+                <h2 className="wsite-content-title">
+              ADDRESS
+                </h2>
+                <div className="paragraph1">
+                  <h3>
+                  35 Spicer Close<br/>
+                  Minet Road<br/>
+                  SW9 7UD<br/>
+                  London<br/>
+                  </h3>
+                </div>
+              </td>
+
+              <td className="wsite-multicol-col2">
+                <h2 className="wsite-content-title">
+              TRAINING
+                </h2>
+                <div className="paragraph1">
+                  <h3>
+                  Monday: 10:00 - 21:00<br/>
+                  Monday: 10:00 - 21:00<br/>
+                  Monday: 10:00 - 21:00<br/>
+                  Monday: 10:00 - 21:00<br/>
+                  Monday: 10:00 - 21:00<br/>
+                  Saturday: CLOSE<br/>
+                  Sunday: CLOSE<br/>
+                  </h3>
+                </div>
+              </td>
+
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
   </div>
 
 
