@@ -141,6 +141,34 @@ p {
   margin-top: 3rem;
 }
 
-.wsite-multicol-table-wrap {
+.wsite-multicol-table-wrap .wsite-multicol-table-wrap1 {
   margin: 0 -20px;
+}
+
+.wsite-multicol-table-wrap .wsite-multicol-table-wrap1 {
+  margin: 0 -15px;
+}
+
+.wsite-multicol-col {
+  width: 65%;
+  padding: 0 20px;
+}
+
+.wsite-multicol-col1 {
+  width: 42%;
+  padding: 0 15px;
+}
+
+.wsite-multicol-col2 {
+  width: 58%;
+  padding: 0 15px;
+}
+
+.wsite-content-title .paragraph1 {
+  text-align: left;
+}
+
+.wsite-content-title {
+  font-size: 2;
+  font-weight: normal;
 }
