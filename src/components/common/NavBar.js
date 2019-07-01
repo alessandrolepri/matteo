@@ -18,7 +18,7 @@ class Navbar extends React.Component{
     if(name === 'home')this.props.history.push('/')
     if(name === 'aboutme')this.props.history.push('/aboutme')
     if(name === 'service')this.props.history.push('/service')
-    if(name === 'contact')this.props.history.push('/')
+    if(name === 'contact')this.props.history.push('/contact')
   }
 
 
