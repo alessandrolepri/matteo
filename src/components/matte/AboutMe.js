@@ -13,6 +13,10 @@ const AboutMe = () => (
       <Image src='images/foto.jpeg' circular />
     </div>
 
+    <div className="paragraph">
+      <h3>Matteo Atti, Personal Trainer & Precision Nutrition </h3>
+    </div>
+
   </div>
 
 )
