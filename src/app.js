@@ -9,22 +9,30 @@ import './style.scss'
 
 import Home from './components/Home'
 import Aboutme from './components/matte/Aboutme'
+import NavBar from './components/common/NavBar'
 
 
 
 class App extends React.Component {
+  constructor(){
+    super()
+  }
+
   render() {
     return (
-      <BrowserRouter>
-        <main>
+      <div>
+        <BrowserRouter>
+          <main>
+            <NavBar />
 
-          <Switch>
-            <Route path="/aboutme" component={Aboutme} />
-            <Route path="/" component={Home} />
-          </Switch>
-
-        </main>
-      </BrowserRouter>
+            <Switch>
+              <Route path="/aboutme" component={Aboutme} />
+              <Route path="/" component={Home} />
+            </Switch>
+              
+          </main>
+        </BrowserRouter>
+      </div>
     )
   }
 }

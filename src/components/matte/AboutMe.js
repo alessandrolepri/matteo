@@ -39,10 +39,13 @@ const AboutMe = () => (
 
     <footer>
       <div className="footer">
-        <p>&copy; 2019 | Matteo Atti, Personal Trainer | Cento (FE), Italy</p>
+        <div id="copy">
+          <p>&copy; 2019 | Matteo Atti, Personal Trainer | Cento (FE), Italy</p>
+        </div>
 
-
-        <p> Powered by Alessandro Lepri </p>
+        <div id="powered">
+          <p> Powered by Alessandro Lepri </p>
+        </div>
 
       </div>
     </footer>

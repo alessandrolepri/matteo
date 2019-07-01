@@ -137,3 +137,16 @@ img.ui.large.image {
 img.ui.large.circular.image {
   margin-left: 200px;
 }
+
+.footer {
+  display: flex;
+  padding-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#nav {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Major Mono Display', monospace !important;
+}
