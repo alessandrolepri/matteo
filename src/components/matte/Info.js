@@ -3,6 +3,13 @@
 import React from 'react'
 
 const Info = () => (
+  <div>
+  <div>
+    <div className="sono-qui">
+      <img src="images/sono-qui.png" alt="Oasi Wellness" />
+    </div>
+  </div>
+
 
   <div>
     <div className="wsite-multicol">
@@ -95,6 +102,7 @@ const Info = () => (
       </div>
     </div>
 
+  </div>
   </div>
 )
 
