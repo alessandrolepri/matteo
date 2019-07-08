@@ -169,6 +169,88 @@ p {
 }
 
 .wsite-content-title {
-  font-size: 2;
+  font-size: 36px;
   font-weight: normal;
+}
+
+.wsite-form-container {
+  padding-top: 10px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style-type: disc;
+}
+
+.formlist {
+  min-height: inherit;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wsite-form-label.wsite-form-fields-required-label {
+  font-weight: normal;
+}
+
+.wsite-form-label {
+  display: inline-block;
+  padding: 0;
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.form-required {
+  display: inline;
+  color: #ff2825;
+}
+
+.wsite-form-field div.wsite-form-input-container .wsite-form-input {
+  box-sizing: border-box;
+  width: 100% !important;
+}
+
+div {
+  display: block;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.wsite-form-field wsite-name-field {
+  margin:5px 0px 5px 0px;
+}
+
+table {
+  border-spacing: 2px;
+  border-collapse: collapse;
+}
+
+.wsite-form-input wsite-input wsite-input-width-370px {
+  width: 370px;
+}
+
+.wsite-form-input wsite-input wsite-input-width-370px-text {
+  height: 100px;
+}
+
+.wsite-button {
+  display: inline-block;
+  height: auto;
+  padding: 0;
+  background-image: none !important;
+  background-color: transparent;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  transition: all 100ms ease-in-out;
 }

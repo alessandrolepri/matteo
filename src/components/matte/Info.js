@@ -89,18 +89,13 @@ const Info = () => (
                   </h3>
                 </div>
               </td>
-
-
             </tr>
           </tbody>
         </table>
       </div>
     </div>
 
-
   </div>
-
-
 )
 
 export default Info
