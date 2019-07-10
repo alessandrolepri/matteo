@@ -214,20 +214,12 @@ ul {
   color: #ff2825;
 }
 
-.wsite-form-field div.wsite-form-input-container .wsite-form-input {
+.wsite-form-field.div.wsite-form-input-container .wsite-form-input {
   box-sizing: border-box;
   width: 100% !important;
 }
 
-div {
-  display: block;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-.wsite-form-field wsite-name-field {
+.wsite-form-field.wsite-name-field {
   margin:5px 0px 5px 0px;
 }
 
@@ -236,11 +228,11 @@ table {
   border-collapse: collapse;
 }
 
-.wsite-form-input wsite-input wsite-input-width-370px {
+.wsite-form-input.wsite-input.wsite-input-width-370px {
   width: 370px;
 }
 
-.wsite-form-input wsite-input wsite-input-width-370px-text {
+.wsite-form-input.wsite-input.wsite-input-width-370px-text {
   height: 100px;
 }
 
@@ -262,13 +254,30 @@ table {
 .row {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 4rem;
 }
 
-h2.h1-responsive.font-weight-bold.text-center.my-5, p.text-center.w-responsive.mx-auto.pb-5 {
+h2.h1-responsive.font-weight-bold.text-center.my-5, p.h5.text-center.mb-4 {
   text-align: center;
-  padding: 3rem 0 3rem 0;
 }
 
 h2.h1-responsive.font-weight-bold.text-center.my-5 {
   font-size: -webkit-xxx-large;
+}
+
+h3.mt-2 {
+  text-align: center;
+}
+
+div.text-center {
+  text-align: center;
+}
+
+.btn.btn-light-blue.Ripple-parent {
+  background-color: dodgerblue;
+  color: #FFF;
+}
+
+p.h5.text-center.mb-4 {
+  margin-bottom: 2rem;
 }
