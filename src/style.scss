@@ -258,3 +258,17 @@ table {
 .sono-qui img {
   height: 50%;
 }
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2.h1-responsive.font-weight-bold.text-center.my-5, p.text-center.w-responsive.mx-auto.pb-5 {
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+}
+
+h2.h1-responsive.font-weight-bold.text-center.my-5 {
+  font-size: -webkit-xxx-large;
+}
