@@ -1,109 +1,69 @@
 /* eslint-disable max-len */
-
 import React from 'react'
-
-const Info = () => (
-  <div>
-  <div>
-    <div className="sono-qui">
-      <img src="images/sono-qui.png" alt="Oasi Wellness" />
-    </div>
-  </div>
+import { Segment, Grid, Form, Input, Divider, Button, TextArea, Icon } from 'semantic-ui-react'
 
 
-  <div>
-    <div className="wsite-multicol">
-      <div className="wsite-multicol-table-wrap">
-        <table className="wsite-multicol-table">
-          <tbody className="wsite-multicol-tbody">
-            <tr className="wsite-multicol-tr">
-              <td className="wsite-multicol-col1">
-                <h2 className="wsite-content-title">
-                CONTACT ME
-                </h2>
-                <div className="paragraph1">
-                  <span>What ever your question or query please feel free to get in touch and I will get straight back to   you</span>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div className="wsite-multicol">
-      <div className="wsite-multicol-table-wrap">
-        <table className="wsite-multicol-table">
-          <tbody className="wsite-multicol-tbody">
-            <tr className="wsite-multicol-tr">
-              <td className="wsite-multicol-col">
-                <h2 className="wsite-content-title">
-              TELEPHONE
-                </h2>
-                <div className="paragraph1">
-                  <a href="tel:+44123456789">+44 123456789</a>
-                </div>
-              </td>
-
-              <td className="wsite-multicol-col2">
-                <h2 className="wsite-content-title">
-              EMAIL
-                </h2>
-                <div className="paragraph1">
-                  <a href="mailto:test@test.com">test@test.com</a>
-                </div>
-              </td>
 
 
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+const Details = ({ handleChange, handleSubmit }) => {
 
-    <div className="wsite-multicol">
-      <div className="wsite-multicol-table-wrap">
-        <table className="wsite-multicol-table">
-          <tbody className="wsite-multicol-tbody">
-            <tr className="wsite-multicol-tr">
-              <td className="wsite-multicol-col">
-                <h2 className="wsite-content-title">
-              ADDRESS
-                </h2>
-                <div className="paragraph1">
-                  <h3>
-                  35 Spicer Close<br/>
-                  Minet Road<br/>
-                  SW9 7UD<br/>
-                  London<br/>
-                  </h3>
-                </div>
-              </td>
 
-              <td className="wsite-multicol-col2">
-                <h2 className="wsite-content-title">
-              TRAINING
-                </h2>
-                <div className="paragraph1">
-                  <h3>
-                  Monday: 10:00 - 21:00<br/>
-                  Monday: 10:00 - 21:00<br/>
-                  Monday: 10:00 - 21:00<br/>
-                  Monday: 10:00 - 21:00<br/>
-                  Monday: 10:00 - 21:00<br/>
-                  Saturday: CLOSE<br/>
-                  Sunday: CLOSE<br/>
-                  </h3>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+  return(
+    <Grid columns={1} stackable textAlign='center'>
+      <Grid.Column width={5}>
+        <Divider hidden />
+        <Segment color='blue'>
+          <Icon name='comments outline' size='huge' />
+          <Form onSubmit={handleSubmit} >
 
-  </div>
-  </div>
-)
+            <Form.Group widths='equal'>
+              <Form.Input
+                label='Nome'
+                required
+                name='firstName'
+                placeholder='Nome'
+                onChange={handleChange}
+                icon="info"
+              />
 
-export default Info
+              <Form.Input
+                onChange={handleChange}
+                required
+                icon="info"
+                label='Cognome'
+                name='lastName'
+                placeholder='Cognome' />
+            </Form.Group>
+
+            <Form.Field required>
+              <label>Indirizzo Email</label>
+              <Input
+                onChange={handleChange}
+                icon="at"
+                placeholder='Email'
+                type='email'
+                name='email'
+              />
+            </Form.Field>
+
+            <Form.Field required>
+              <label>Scrivi il tuo messaggio</label>
+              <TextArea
+                name='bio'
+                placeholder=''
+                style={{ minHeight: 100 }}
+                onChange={handleChange}
+              />
+            </Form.Field>
+
+
+            <Button content="INVIA" primary icon="send" />
+
+          </Form>
+        </Segment>
+      </Grid.Column>
+    </Grid>
+  )
+}
+
+export default Details
