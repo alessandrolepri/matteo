@@ -1,6 +1,8 @@
 import React from 'react'
 import { Segment, Grid, Form, Input, Divider, Button, TextArea, Icon } from 'semantic-ui-react'
 
+import Information from './Information'
+
 
 const Info = ({ handleChange, handleSubmit }) => {
 
@@ -77,12 +79,10 @@ const Info = ({ handleChange, handleSubmit }) => {
       <div className="flex-container">
         <div>
           <img id="here" src="images/sono-qui.png" />
-          <h3> Oasi Wellness, Via xxx </h3>
 
         </div>
         <div className="indirizzo">
-          <h3> Cel: 123495956</h3>
-          <h3> test@test.com</h3>
+          <Information />
         </div>
       </div>
 
