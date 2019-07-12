@@ -29,14 +29,15 @@ class Navbar extends React.Component{
       <Segment inverted id="nav">
 
         <Menu stackable inverted pointing secondary>
-          <Menu.Item
-            name='home'
-            active={this.props.location.pathname === '/'}
-            onClick={this.handleItemClick}
-          > <Icon name='home' /> Home
-          </Menu.Item>
-
+          <img id="logo-navbar" src="images/matteo.jpeg" />
           <Menu.Menu position='right'>
+            <Menu.Item
+              name='home'
+              active={this.props.location.pathname === '/'}
+              onClick={this.handleItemClick}
+            > <Icon name='home' /> Home
+            </Menu.Item>
+
             <Menu.Item
               name='aboutme'
               active={this.props.location.pathname === '/aboutme'}

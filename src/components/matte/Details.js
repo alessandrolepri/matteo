@@ -77,7 +77,11 @@ const Details = ({ handleChange, handleSubmit }) => {
 
       <div className="flex-container">
         <div>Mappa </div>
-        <div>Orari e Indirizzo</div>
+        <div className="indirizzo">
+          <h3> Oasi Wellness, Via xxx </h3>
+          <h3> Cel: 123495956</h3>
+          <h3> test@test.com</h3>
+        </div>
       </div>
 
     </section>
