@@ -4,24 +4,24 @@ import { Icon, Step } from 'semantic-ui-react'
 const Information = () => (
   <Step.Group stackable='tablet'>
     <Step>
-      <Icon name='plane' />
+      <Icon name='map marker alternate' />
       <Step.Content>
-        <Step.Title>Shipping</Step.Title>
-        <Step.Description>Choose your shipping options</Step.Description>
+        <Step.Title>Oasi Welleness</Step.Title>
+        <Step.Description>Via Manin, 15, 44042 Cento FE, Italy</Step.Description>
       </Step.Content>
     </Step>
     <Step active>
-      <Icon name='dollar' />
+      <Icon name='whatsapp' />
       <Step.Content>
-        <Step.Title>Billing</Step.Title>
-        <Step.Description>Enter billing information</Step.Description>
+        <Step.Title>whatsapp</Step.Title>
+        <Step.Description>123456789</Step.Description>
       </Step.Content>
     </Step>
-    <Step disabled>
-      <Icon name='info circle' />
+    <Step active>
+      <Icon name='envelope' />
       <Step.Content>
-        <Step.Title>Confirm Order</Step.Title>
-        <Step.Description>Verify order details</Step.Description>
+        <Step.Title>Email</Step.Title>
+        <Step.Description>test@test.com</Step.Description>
       </Step.Content>
     </Step>
   </Step.Group>
