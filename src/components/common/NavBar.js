@@ -42,7 +42,7 @@ class Navbar extends React.Component{
               name='aboutme'
               active={this.props.location.pathname === '/aboutme'}
               onClick={this.handleItemClick}
-            > <Icon name='globe' /> About Me
+            > <Icon name='user' /> About Me
             </Menu.Item>
 
             <Menu.Item

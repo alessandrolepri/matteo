@@ -14,11 +14,13 @@ const AboutMe = () => (
     </div>
 
     <div className="paragraph">
-      <h3>Matteo Atti, Personal Trainer & Precision Nutrition </h3>
+      <h3 id="info-me">Matteo Atti, Personal Trainer & Precision Nutrition </h3>
+      <div className="line"></div>
     </div>
 
     <div className="story">
-      <h2> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </h2>
+      <h1 id="approccio"> Il mio approccio con il cliente </h1>
+      <h2 id="me"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </h2>
     </div>
 
   </div>
