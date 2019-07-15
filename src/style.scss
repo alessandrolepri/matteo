@@ -5,7 +5,7 @@ body {
 img#logo-navbar {
   width: 90px;
   // margin: 0;
-  position: fixed;
+  position: block;
 }
 
 .wrapper {
@@ -35,6 +35,65 @@ h1 {
 p {
   text-align: justify;
 }
+
+section.step1 {
+  // height: 65vh;
+  background-image: url("https://www.thegymworksgroup.com/wp-content/themes/TheGymWorksGroup/img/core/services/heros/hero-pt.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  // background-attachment: fixed;
+  background-color: transparent;
+  background-size: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+p#step1 {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+p#free-consultation {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+p#cosultation {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  color: grey;
+}
+
+section.step2 {
+  // height: 65vh;
+  padding-top: 45px;
+}
+
+p#step2 {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+p#free-consultation {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+p#cosultation1 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  // color: #FFF;
+}
+
 
 #nav {
   margin-bottom: 0;
@@ -164,6 +223,7 @@ h2#me {
   font-size: 20px;
   font-family: sans-serif;
   margin-top: 80px;
+  margin-bottom: 10rem;
   font-weight: 300;
 }
 
@@ -185,10 +245,12 @@ h2#me {
 .column-transition-left {
   padding: 0 15px;
   width: 72.5%;
+  margin-top: 13px;
+  margin-bottom: 20px;
 }
 
 img.transition {
-  display: inline-flex;
+  display: inline-block;
   padding-top: 16px;
   float: right;
   margin-left: auto;
