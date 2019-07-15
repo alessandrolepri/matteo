@@ -166,3 +166,43 @@ h2#me {
   margin-top: 80px;
   font-weight: 300;
 }
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 27.5%;
+  padding: 0 15px;
+}
+
+.column-transition-left {
+  padding: 0 15px;
+  width: 72.5%;
+}
+
+img.transition {
+  display: inline-flex;
+  padding-top: 16px;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step1 {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 35px;
+}
