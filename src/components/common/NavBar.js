@@ -28,8 +28,8 @@ class Navbar extends React.Component{
     return (
       <Segment inverted id="nav">
 
-        <Menu stackable inverted pointing secondary>
-          <img id="logo-navbar" src="images/matteo.jpeg" />
+        <Menu stackable  inverted  pointing secondary>
+          <img id="logo-navbar" src="images/pesi.png" />
           <Menu.Menu position='right'>
             <Menu.Item
               name='home'

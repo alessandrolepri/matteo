@@ -4,7 +4,8 @@ body {
 
 img#logo-navbar {
   width: 90px;
-  margin: 0;
+  // margin: 0;
+  position: fixed;
 }
 
 .wrapper {
@@ -27,7 +28,7 @@ img.ui.circular.image {
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
 }
 
@@ -85,7 +86,11 @@ img#home-logo {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  // width: 80%;
+  width: 400px;
+  border-bottom: 2px solid orange;
+  padding-bottom: 60px;
+  margin-top: 50px;
 }
 
 .home .image1 {
@@ -94,8 +99,10 @@ img#home-logo {
 
 .image1 h1, p, h2 {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 0;
+
 }
 
 .wrapper {
@@ -119,4 +126,14 @@ a {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  font-size: 18px;
+  // font-weight: bold;
 }

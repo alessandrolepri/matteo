@@ -7,7 +7,7 @@ const Information = () => (
       <Icon name='map marker alternate' />
       <Step.Content>
         <Step.Title>Oasi Welleness</Step.Title>
-        <Step.Description>Via Manin, 15, 44042 Cento FE, Italy</Step.Description>
+        <Step.Description>Via Manin, 15 <br/> 44042 Cento FE, Italy</Step.Description>
       </Step.Content>
     </Step>
     <Step active>
@@ -21,7 +21,11 @@ const Information = () => (
       <Icon name='envelope' />
       <Step.Content>
         <Step.Title>Email</Step.Title>
-        <Step.Description>test@test.com</Step.Description>
+        <a href="mailto:test@test.com">
+          <Step.Description>
+            test@test.com
+          </Step.Description>
+        </a>
       </Step.Content>
     </Step>
   </Step.Group>
